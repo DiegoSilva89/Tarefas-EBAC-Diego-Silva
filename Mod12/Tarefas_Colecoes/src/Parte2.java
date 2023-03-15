@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Parte2 {
@@ -11,6 +12,9 @@ public class Parte2 {
 
         // Separando os nomes em um array
         String[] nomes = nomesString.split(",");
+
+        //Ordenando os nomes em ordem alfabética
+        Arrays.sort(nomes);
 
         // Criando listas para os grupos feminino e masculino
         ArrayList<String> feminino = new ArrayList<>();
